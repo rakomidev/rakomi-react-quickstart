@@ -1,0 +1,34 @@
+{
+  "name": "@rakomi-examples/quickstart-react",
+  "version": "0.0.0",
+  "description": "Ship React auth in minutes: a Vite SPA with PKCE sign-in, callback handling and a protected /dashboard, built entirely on @rakomi/react.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@rakomi/react": "^0.2.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.13",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakomidev/rakomi-react-quickstart.git"
+  },
+  "homepage": "https://github.com/rakomidev/rakomi-react-quickstart#readme",
+  "bugs": {
+    "url": "https://github.com/rakomidev/rakomi-react-quickstart/issues"
+  }
+}
